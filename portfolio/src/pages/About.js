@@ -15,7 +15,7 @@ class About extends Component {
                     <h2>Full Stack Developer</h2>
                 </header>
   
-                <div id="content" class="container">
+                <div id="content" className="container">
                     I am a full stack web developer that attended the University of Texas at Austin Coding Bootcamp.
                     I have a background in accounting and financial reporting, and have developed skills in 
                     HTML, CSS, Javascript, JQuery, AJAX, Node,js, Express, MySql, MongoDB, Mongoose, React.js, Heroku,

@@ -1,14 +1,19 @@
 import React, { Component } from 'react'
 import '../styles/Button.css'
+import { resume } from './Resume.pdf';
 
 class Button extends Component {
+    // Click Event
+    resumeClick() {
+        window.open( {resume} );
+    }
     render() {
         return (
             <div className="Button">
-                <div className="resumeBtn">
-                    <a href="" target="null" className="btn">Resume</a>
+                <button onClick={this.resumeClick} className="resumeBtn">
+                    <a href= { resume } target="" className="btn">Resume</a>
                     {/**Once Resume is complete, link it to button */}
-                </div>
+                </button>
             </div>
         )
     }
