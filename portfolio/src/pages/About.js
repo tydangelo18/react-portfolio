@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import '../styles/About.css'
-import Icons from '../components/Icons'
+import Icons from '../components/Icons';
 import Button from "../components/Button";
 
 class About extends Component {
