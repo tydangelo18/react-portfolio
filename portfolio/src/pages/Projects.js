@@ -1,11 +1,14 @@
 import React, {Component} from "react";
-import '../../styles/Projects.css'
+import '../styles/Projects.css'
+import ProjectCards from '../components/ProjectCards'
 
 class Projects extends Component {
     render() {
         return (
             <div>
-                <h1>Projects Page Coming Soon...</h1>
+        
+                <ProjectCards />
+                <ProjectCards />
             </div>
         )
     }

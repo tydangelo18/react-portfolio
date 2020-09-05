@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import { Link } from 'react-router-dom';
-import '../../styles/Home.css'
-import logo from '../../components/logo.png';
-import Icons from '../Icons'
+import '../styles/Home.css'
+import logo from '../components/logo.png';
+import Icons from '../components/Icons'
 
 
 class Home extends Component {
@@ -33,7 +33,6 @@ class Home extends Component {
                 </div>
 
             <Icons />
-            
             </div>
         )
     }

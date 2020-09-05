@@ -7,6 +7,7 @@ class Button extends Component {
             <div className="Button">
                 <div className="resumeBtn">
                     <a href="" target="null" className="btn">Resume</a>
+                    {/**Once Resume is complete, link it to button */}
                 </div>
             </div>
         )

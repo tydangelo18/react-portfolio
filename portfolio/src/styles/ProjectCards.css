@@ -1,0 +1,19 @@
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+.card {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(350px - 30px);
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+
+
