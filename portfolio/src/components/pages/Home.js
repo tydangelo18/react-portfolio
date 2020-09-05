@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import '../../styles/Home.css'
 import logo from '../../components/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Mailto from "../Mailto";
 
 
 class Home extends Component {
@@ -40,7 +41,9 @@ class Home extends Component {
                         <FontAwesomeIcon className="gitHubBtn" icon={['fab', 'github']} size="2x" />
                     </Link>
                     
-                    <FontAwesomeIcon className="emailBtn" icon="envelope" size="2x" />
+                    <Mailto email="tydangelo18@gmail.com">
+                        <FontAwesomeIcon style={btnStyle} className="emailBtn" icon="envelope" size="2x" />
+                    </Mailto>
                 </div>
             
             </div>
