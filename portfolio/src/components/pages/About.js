@@ -1,12 +1,31 @@
 import React, {Component} from "react";
 import '../../styles/About.css'
+import Icons from '../Icons'
+import Button from "../Button";
 
 class About extends Component {
     render() {
         return (
             <div>
-                <h1>About Page Coming Soon...</h1>
+                <header className="showcase">
+                    <h1>Ty D'Angelo</h1>
+                </header>
+                
+                <header className="subTitle">
+                    <h2>Full Stack Developer</h2>
+                </header>
+  
+                <div id="content" class="container">
+                    I am a full stack web developer that attended the University of Texas at Austin Coding Bootcamp.
+                    I have a background in accounting and financial reporting, and have developed skills in 
+                    HTML, CSS, Javascript, JQuery, AJAX, Node,js, Express, MySql, MongoDB, Mongoose, React.js, Heroku,
+                    Git, and cross-browser responsive web design. 
+                </div>
+                <Button />
+                <Icons />
             </div>
+
+            
         )
     }
 }
