@@ -15,5 +15,15 @@
     border: 3px solid #ffffff;
 }
 
+@media (max-width: 768px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .card {
+        width: calc(400px - 100px);
+    }
+}
 
