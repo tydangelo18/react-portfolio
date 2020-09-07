@@ -2,12 +2,38 @@ import React, {Component} from "react";
 import '../styles/About.css'
 import Icons from '../components/Icons'
 import Button from "../components/Button";
+import Header from "../components/Header";
+import SideBar from "../components/SideBar";
+import Backdrop from '../components/Backdrop';
 
 class About extends Component {
+    // Initial State
+    state = {
+        sideBarOpen: false
+    };
+    // Change the state of sideBar
+    sideBarClickHandler = () => {
+        this.setState((prevState) => {
+            return {sideBarOpen: !prevState.sideBarOpen};
+        });
+    };
+
+    closesideBarClickHandler = () => {
+        this.setState({sideBarOpen: false});
+    }
+    
     render() {
+        let backdrop;
+        
+        if (this.state.sideBarOpen) {
+            backdrop = <Backdrop click={this.closesideBarClickHandler}/>
+        }
         return (
-            <div>
-                <header className="showcase">
+            <div style={{height: '100%'}}>
+                <Header barClickHandler={this.sideBarClickHandler} />
+                <SideBar show={this.state.sideBarOpen} />
+                {backdrop}
+                <header style={{marginTop: '64px'}} className="showcase">
                     <h1>Ty D'Angelo</h1>
                 </header>
                 
