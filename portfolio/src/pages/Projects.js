@@ -36,7 +36,6 @@ class Projects extends Component {
                 {backdrop}
                 <header style={{marginTop: '64px'}}></header>
                 <ProjectCards />
-                <ProjectCards />
             </div>
         )
     }

@@ -1,28 +1,81 @@
-.cardContainer {
+.cardDiv {
+    margin: 0;
+}
+
+.topRow {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    }
-
-.card {
+    margin-bottom: 20px;
     position: relative;
-    width: calc(400px - 30px);
-    height: calc(350px - 30px);
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
 }
 
+.bottomRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+#passwordCard, #plannerCard, #springboardCard, 
+#readmeCard, #burgerCard, #filterCard {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+  }
+  
+  .image {
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-top: 0;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ed5050;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
 @media (max-width: 768px) {
-    .cardContainer {
+    .topRow {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .card {
+    .bottomRow {
+        display: none;
+    }
+
+    #passwordCard, #plannerCard, #springboardCard, 
+    #readmeCard, #burgerCard, #filterCard {
         width: calc(400px - 100px);
     }
 }
