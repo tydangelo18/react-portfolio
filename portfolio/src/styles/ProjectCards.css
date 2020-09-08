@@ -8,6 +8,7 @@
     justify-content: center;
     margin-bottom: 20px;
     position: relative;
+    
 }
 
 .bottomRow {
@@ -23,6 +24,96 @@
     width: 300px;
     height: 300px;
     margin: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+
+  #passwordCard {
+    opacity: 0;
+    position: relative;
+    animation-name: password;
+    animation-duration: 4s;
+    animation-delay: .6s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes password {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  #plannerCard {
+    opacity: 0;
+    position: relative;
+    animation-name: planner;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes planner {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+  #springboardCard {
+    opacity: 0;
+    position: relative;
+    animation-name: springboard;
+    animation-duration: 4s;
+    animation-delay: 1.4s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes springboard {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+  #readmeCard {
+    opacity: 0;
+    position: relative;
+    animation-name: readme;
+    animation-duration: 4s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes readme {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+  #burgerCard {
+    opacity: 0;
+    position: relative;
+    animation-name: burger;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes burger {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+
+  #filterCard {
+    opacity: 0;
+    position: relative;
+    animation-name: filter;
+    animation-duration: 4s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes filter {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
   }
   
   .image {
@@ -44,7 +135,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #ed5050;
+    background-color: #2b2727;
   }
   
   .container:hover .overlay {
@@ -71,7 +162,9 @@
     }
 
     .bottomRow {
-        display: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
 
     #passwordCard, #plannerCard, #springboardCard, 

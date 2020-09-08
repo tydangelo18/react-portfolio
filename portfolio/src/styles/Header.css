@@ -14,18 +14,43 @@
     padding: 0 1rem;
 }
 
+.header-navigation-items {
+    opacity: 0;
+    animation-name: nav-items;
+    animation-duration: 3s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes nav-items {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
 .spacer {
     flex: 1;
 }
 
 .header-logo img {
     margin-left: .5rem;
-    margin-top: 2rem;
+    padding-top: 1rem;
 }
 
 .header-logo {
     margin-left: 0.5rem;
+    opacity: 0;
+    animation-name: header-logo;
+    animation-duration: 3s;
+    animation-delay: 2.6s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes header-logo {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
 
 .header-navigation-items ul {
     list-style: none;
@@ -53,6 +78,10 @@
 @media (max-width: 768px) {
     .header-navigation-items {
         display: none;
+    }
+
+    .header-logo {
+       display: none; 
     }
 }
 
