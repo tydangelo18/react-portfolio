@@ -19,7 +19,7 @@ function App() {
         <Switch>
           <Route path="/react-portfolio" exact component={Home} />
           <Route path="projects" component={Projects} />
-          <Route path="about" exact component={About} />
+          <Route path="about" component={About} />
         </Switch>
         <Footer />
       </div>
