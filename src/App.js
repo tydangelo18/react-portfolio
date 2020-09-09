@@ -17,9 +17,9 @@ function App() {
     <Router>
       <div className="App">
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/about" component={About} />
+          <Route path="/react-portfolio" exact component={Home} />
+          <Route path="/react-portfolio/projects" component={Projects} />
+          <Route path="/react-portfolio/about" component={About} />
         </Switch>
         <Footer />
       </div>
