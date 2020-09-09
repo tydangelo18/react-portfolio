@@ -18,25 +18,25 @@ class ProjectCards extends Component {
                         <div className="container" id="passwordCard">
                             <img src={password} alt="password" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/randompasswordgenerator" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/randompasswordgenerator" target="null"> 
                                     <div className="text">Password Generator</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="container" id="plannerCard">
                             <img src={planner} alt="planner" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/dayplanner" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/dayplanner" target="_blank"> 
                                     <div className="text">Day Planner</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="container" id="springboardCard">
                             <img src={springboard} alt="Springboard" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/springboard-app" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/springboard-app" target="_blank"> 
                                     <div className="text">Springboard</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -44,25 +44,25 @@ class ProjectCards extends Component {
                         <div className="container" id="readmeCard">
                             <img src={readme} alt="Readme" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/readmegenerator" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/readmegenerator" target="_blank"> 
                                     <div className="text">ReadMe Generator</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="container" id="burgerCard">
                             <img src={burger} alt="Burger Logger" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/weloveburgers" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/weloveburgers" target="_blank"> 
                                     <div className="text">Burger Logger</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                         <div className="container" id="filterCard">
                             <img src={filter} alt="React Filter Tool" className="image"></img>
                             <div className="overlay">
-                                <Link to={{ pathname: "https://github.com/tydangelo18/employee-directory" }} target="null"> 
+                                <a href="https://github.com/tydangelo18/employee-directory" target="_blank"> 
                                     <div className="text">React Filter Tool</div>
-                                </Link>
+                                </a>
                             </div>
                         </div>
                     </div>
