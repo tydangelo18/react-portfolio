@@ -10,9 +10,9 @@ class SideBar extends Component {
         return (
             <nav className={sideBarClasses}>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/projects">Projects</a></li>
-                    <li><a href="/about">About</a></li>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/about">About</Link></li>
                 </ul>
             </nav>
         )
