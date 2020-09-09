@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../styles/ProjectCards.css';
-import { Link } from 'react-router-dom';
 import password from '../utilities/password.jpg';
 import planner from '../utilities/planner.jpg';
 import springboard from '../utilities/springboard.jpg';
