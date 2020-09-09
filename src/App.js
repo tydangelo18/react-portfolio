@@ -18,8 +18,8 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/react-portfolio" exact component={Home} />
-          <Route path="projects" component={Projects} />
-          <Route path="about" component={About} />
+          <Route path="/react-portfolio/projects" exact component={Projects} />
+          <Route path="/react-portfolio/about" exact component={About} />
         </Switch>
         <Footer />
       </div>
