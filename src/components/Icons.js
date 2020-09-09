@@ -13,10 +13,10 @@ class Icons extends Component {
 
         return (
             <div className="icons">
-                <a style={btnStyle} href="https://www.linkedin.com/in/tydangelo18/" target="_blank">
+                <a style={btnStyle} href="https://www.linkedin.com/in/tydangelo18/" target="null">
                         <FontAwesomeIcon className="linkedInBtn" icon={['fab', 'linkedin']} size= "2x" />
                     </a>
-                    <a style={btnStyle} href="https://github.com/tydangelo18" target="_blank">
+                    <a style={btnStyle} href="https://github.com/tydangelo18" target="null">
                         <FontAwesomeIcon className="gitHubBtn" icon={['fab', 'github']} size="2x" />
                     </a>
                     

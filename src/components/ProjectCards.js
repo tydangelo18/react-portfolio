@@ -26,7 +26,7 @@ class ProjectCards extends Component {
                         <div className="container" id="plannerCard">
                             <img src={planner} alt="planner" className="image"></img>
                             <div className="overlay">
-                                <a href="https://github.com/tydangelo18/dayplanner" target="_blank"> 
+                                <a href="https://github.com/tydangelo18/dayplanner" target="null"> 
                                     <div className="text">Day Planner</div>
                                 </a>
                             </div>
@@ -34,7 +34,7 @@ class ProjectCards extends Component {
                         <div className="container" id="springboardCard">
                             <img src={springboard} alt="Springboard" className="image"></img>
                             <div className="overlay">
-                                <a href="https://github.com/tydangelo18/springboard-app" target="_blank"> 
+                                <a href="https://github.com/tydangelo18/springboard-app" target="null"> 
                                     <div className="text">Springboard</div>
                                 </a>
                             </div>
@@ -44,7 +44,7 @@ class ProjectCards extends Component {
                         <div className="container" id="readmeCard">
                             <img src={readme} alt="Readme" className="image"></img>
                             <div className="overlay">
-                                <a href="https://github.com/tydangelo18/readmegenerator" target="_blank"> 
+                                <a href="https://github.com/tydangelo18/readmegenerator" target="null"> 
                                     <div className="text">ReadMe Generator</div>
                                 </a>
                             </div>
@@ -52,7 +52,7 @@ class ProjectCards extends Component {
                         <div className="container" id="burgerCard">
                             <img src={burger} alt="Burger Logger" className="image"></img>
                             <div className="overlay">
-                                <a href="https://github.com/tydangelo18/weloveburgers" target="_blank"> 
+                                <a href="https://github.com/tydangelo18/weloveburgers" target="null"> 
                                     <div className="text">Burger Logger</div>
                                 </a>
                             </div>
@@ -60,7 +60,7 @@ class ProjectCards extends Component {
                         <div className="container" id="filterCard">
                             <img src={filter} alt="React Filter Tool" className="image"></img>
                             <div className="overlay">
-                                <a href="https://github.com/tydangelo18/employee-directory" target="_blank"> 
+                                <a href="https://github.com/tydangelo18/employee-directory" target="null"> 
                                     <div className="text">React Filter Tool</div>
                                 </a>
                             </div>
