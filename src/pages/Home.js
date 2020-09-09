@@ -21,13 +21,13 @@ class Home extends Component {
                 </header>
 
                 <div className="projects"> 
-                    <Link style={btnStyle} to='/react-portfolio/projects'>             
+                    <Link style={btnStyle} to='/projects'>             
                         <h1>Projects</h1>   
                     </Link>  
                 </div>
 
                 <div className="about">
-                    <Link style={btnStyle} to='/react-portfolio/about'>
+                    <Link style={btnStyle} to='/about'>
                         <h1>About</h1>
                     </Link>
                 </div>
