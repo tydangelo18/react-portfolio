@@ -3,7 +3,7 @@ This is my website/portfolio re-done with ReactJS.
 
 ### Live Link
 
-- You can view the live site [here.]()
+- You can view the live site [here.](https://tydangelo18.github.io/react-portfolio/)
 
 ### Features
 - [x] Mobile-Responsiveness.
