@@ -12,7 +12,7 @@ class Button extends Component {
             <div className="Button">
                 <div onClick={this.resumeClick} className="resumeBtn">
                     <a href= { resume } target= "null" className="btn">Resume</a>
-                    {/**Once Resume is complete, link it to button */}
+                    
                 </div>
             </div>
         )
