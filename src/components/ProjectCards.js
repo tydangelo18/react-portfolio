@@ -3,7 +3,7 @@ import '../styles/ProjectCards.css';
 import weather from '../utilities/weather.jpg';
 import planner from '../utilities/planner.jpg';
 import springboard from '../utilities/springboard.jpg';
-import readme from '../utilities/readme.jpg';
+import photography from '../utilities/photography.jpg';
 import burger from '../utilities/burger.jpg';
 import filter from '../utilities/filter.jpg';
 
@@ -49,36 +49,40 @@ class ProjectCards extends Component {
           </div>
           <div className='bottomRow'>
             <div className='container' id='plannerCard'>
-              <img src={planner} alt='planner' className='image'></img>
+              <img src={planner} alt='Web Organizer' className='image'></img>
               <div className='overlay'>
                 <a
-                  href='https://tydangelo18.github.io/dayplanner/'
+                  href='https://floating-garden-26225.herokuapp.com/'
                   target='null'
                 >
-                  <div className='text'>Day Planner</div>
+                  <div className='text'>Web Organizer</div>
                 </a>
               </div>
             </div>
             <div className='container' id='readmeCard'>
-              <img src={readme} alt='Readme' className='image'></img>
+              <img
+                src={photography}
+                alt='Cody J. Brown Photography'
+                className='image'
+              ></img>
               <div className='overlay'>
                 <a
-                  href='https://github.com/tydangelo18/readmegenerator'
+                  href='https://github.com/tydangelo18/codyportfolio'
                   target='null'
                 >
-                  <div className='text'>ReadMe Generator</div>
+                  <div className='text'>Cody J. Brown Photography</div>
                 </a>
               </div>
             </div>
 
             <div className='container' id='filterCard'>
-              <img src={filter} alt='React Filter Tool' className='image'></img>
+              <img src={filter} alt='Landing Page' className='image'></img>
               <div className='overlay'>
                 <a
-                  href='https://tydangelo18.github.io/employee-directory/'
+                  href='https://tydangelo18.github.io/landingpage/'
                   target='null'
                 >
-                  <div className='text'>React Filter Tool</div>
+                  <div className='text'>Landing Page</div>
                 </a>
               </div>
             </div>
