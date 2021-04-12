@@ -67,7 +67,7 @@ class ProjectCards extends Component {
               ></img>
               <div className='overlay'>
                 <a
-                  href='https://github.com/tydangelo18/codyportfolio'
+                  href='https://tydangelo18.github.io/codyportfolio/#/'
                   target='null'
                 >
                   <div className='text'>Cody J. Brown Photography</div>
