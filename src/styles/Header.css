@@ -1,96 +1,71 @@
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #2b2727;
-    height: 56px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
 }
 
 .header-navigation {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
 }
 
-.header-navigation-items {
-    opacity: 0;
-    animation-name: nav-items;
-    animation-duration: 3s;
-    animation-delay: 2.6s;
-    animation-fill-mode: forwards;
-}
 
-@keyframes nav-items {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
 
 .spacer {
-    flex: 1;
+  flex: 1;
 }
 
 .header-logo img {
-    margin-left: .5rem;
-    padding-top: 1rem;
+  margin-left: 0.5rem;
+  padding-top: 1rem;
 }
 
 .header-logo {
-    margin-left: 0.5rem;
-    opacity: 0;
-    animation-name: header-logo;
-    animation-duration: 3s;
-    animation-delay: 2.6s;
-    animation-fill-mode: forwards;
+  margin-left: 0.5rem;
+  
 }
-
-@keyframes header-logo {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-}
-
-
 
 .header-navigation-items ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .header-navigation-items li {
-    padding: 0 .5rem;
+  padding: 0 0.5rem;
 }
 
 .header-navigation-items a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .header-navigation-items a:hover,
 .header-navigation-items a:active {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 /* Mobile Phones */
-@media (max-width: 768px) {
-    .header-navigation-items {
-        display: none;
-    }
+@media (max-width: 960px) {
+  .header-navigation-items {
+    display: none;
+  }
 
-    .header-logo {
-       display: none; 
-    }
+  .header-logo {
+    display: none;
+  }
 }
 
-@media (min-width: 769px) {
-    .header-button {
-        display: none;
-    }
-    .header-logo {
-        margin-left: 0;
-    }
+@media (min-width: 960px) {
+  .header-button {
+    display: none;
+  }
+  .header-logo {
+    margin-left: 0;
+  }
 }
-

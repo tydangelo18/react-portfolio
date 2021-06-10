@@ -1,74 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body {
-    background-color: #2b2727;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-    line-height: 3.0;
-    text-align: center;
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url(../utilities/hello.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-img {
-    margin-top: 10px;
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
 }
 
-.logo img {
-    opacity: 0;
-    animation-name: logo;
-    animation-duration: 3s;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+.content .info h2 {
+  color: #f3f3f3;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.content .info h2 span {
+  color: #f3f3f3;
+  font-size: 50px;
+  font-weight: 600;
 }
 
-@keyframes logo {
-    0% {opacity: 0}
-    100% {opacity: 1;}
+.content .info p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
 }
 
-.projects h1 {
+.content .info-btn {
+    color: #e1e1e1;
+    background: #888888;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.content .info-btn:hover {
+    background: #6c6c6c;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@media only screen and (max-width: 960px) {
+  .content .info h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+
+  .content .info h2 span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .content .info h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .content .info h2 span {
     font-size: 30px;
-    position: relative;
-    opacity: 0;
-    animation-name: projects;
-    animation-duration: 1.75s;
-    animation-delay: .3s;
-    animation-fill-mode: forwards;
-    transition-property: font-size;
-    transition-duration: .2s;
+    font-weight: 600;
+  }
+
+  .content .info p {
+    font-size: 14px;
+  }
 }
-
-.projects h1:hover {
-    font-size: 60px;
-
-}
-
-@keyframes projects {
-    0% {top: -500px; opacity: 0;}
-    75% {opacity: 1}
-    100% {top: 60px; opacity: 1;}
-}
-
-.about h1 {
-    font-size: 30px;
-    position: relative;
-    animation-name: about;
-    animation-duration: 1.75s;
-    animation-fill-mode: forwards;
-    transition-property: font-size;
-    transition-duration: .2s;
-}
-
-.about h1:hover {
-    font-size: 60px;
-}
-
-@keyframes about {
-    0% {top: -500px}
-    100% {top: 60px}
-}
-

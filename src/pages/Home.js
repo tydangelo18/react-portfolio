@@ -1,41 +1,44 @@
-import React, {Component} from "react";
-import { Link } from 'react-router-dom';
-import '../styles/Home.css'
-import logo from '../components/logo.png';
-import Icons from '../components/Icons'
+import React from 'react';
+// import { Link } from 'react-router-dom';
+import '../styles/Home.css';
+import Header from '../components/Header';
+import Icons from '../components/Icons';
 
 
-class Home extends Component {
-    render() {
-
-        const btnStyle = {
-            color: 'white',
-            textDecoration: 'none'
-        };
-
-        return (
-            <div className="Home">
-                
-                <header className="logo">
-                    <img src={logo} width="150" height="150" alt="logo"></img>
-                </header>
-
-                <div className="projects"> 
-                    <Link style={btnStyle} to='/projects'>             
-                        <h1>Projects</h1>   
-                    </Link>  
-                </div>
-
-                <div className="about">
-                    <Link style={btnStyle} to='/about'>
-                        <h1>About</h1>
-                    </Link>
-                </div>
-
-            <Icons />
-            </div>
-        )
-    }
-}
+const Home = () => {
+  return (
+    <div>
+      <section>
+        <header>
+          <Header />
+        </header>
+        <div className='content'>
+          <div className='info'>
+            <h2>
+              Ty D'Angelo <br />
+              <span>Full Stack Developer</span>
+            </h2>
+            <p>
+              Full Stack Developer with a background in financial accounting. I
+              completed the Full Stack Web Development Boot Camp at the
+              University of Texas at Austin in October 2020. I enjoy problem
+              solving while also utilizing my creativity. My skills include
+              Javascript, React, Redux, Node.js, Git, HTML, and CSS.{' '}
+            </p>
+            {
+              // This will be a <Link /> to my Resume
+            }
+            <a href='#' className='info-btn'>
+              Download CV
+            </a>
+          </div>
+        </div>
+        <div className='media-icons'>
+          <Icons />
+        </div>
+      </section>
+    </div>
+  );
+};
 
 export default Home;

@@ -1,67 +1,51 @@
-.icons {
-    margin-top: 88px;
+.icons a {
+  position: relative;
+  color: #f3f3f3;
+  font-size: 25px;
+  transition: 0.3s;
+  transition-property: transform;
+}
+
+.icons a:not(:last-child) {
+  margin-right: 50px;
+}
+
+.icons a:hover {
+  transform: scale(1.5);
 }
 
 .linkedInBtn {
-    position: relative;
-    opacity: 0;
-    padding: 10px;
-    animation-name: linkedin;
-    animation-duration: 3s;
-    animation-delay: 1.75s;
-    animation-fill-mode: forwards;
-    transition-property: font-size;
-    transition-duration: .2s;
-}
+  position: relative;
 
-.linkedInBtn:hover {
-    font-size: 2cm;
-}
-
-
-@keyframes linkedin {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  padding: 10px;
+  animation-name: linkedin;
+  animation-duration: 3s;
+  animation-delay: 1.75s;
+  animation-fill-mode: forwards;
+  transition-property: font-size;
+  transition-duration: 0.2s;
 }
 
 .gitHubBtn {
-    position: relative;
-    opacity: 0;
-    padding: 10px;
-    animation-name: github;
-    animation-duration: 3s;
-    animation-delay: 2.30s;
-    animation-fill-mode: forwards;
-    transition-property: font-size;
-    transition-duration: .2s;
-}
+  position: relative;
 
-.gitHubBtn:hover {
-    font-size: 2cm;
-}
-
-@keyframes github {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  padding: 10px;
+  animation-name: github;
+  animation-duration: 3s;
+  animation-delay: 2.3s;
+  animation-fill-mode: forwards;
+  transition-property: font-size;
+  transition-duration: 0.2s;
 }
 
 .emailBtn {
-    position: relative;
-    opacity: 0;
-    padding: 10px;
-    animation-name: email;
-    animation-duration: 3s;
-    animation-delay: 2.85s;
-    animation-fill-mode: forwards;
-    transition-property: font-size;
-    transition-duration: .2s;
-}
+  position: relative;
 
-.emailBtn:hover {
-    font-size: 2cm;
-}
-
-@keyframes email {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  padding: 10px;
+  animation-name: email;
+  animation-duration: 3s;
+  animation-delay: 2.85s;
+  animation-fill-mode: forwards;
+  transition-property: font-size;
+  transition-duration: 0.2s;
 }
