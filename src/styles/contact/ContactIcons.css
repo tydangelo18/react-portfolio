@@ -1,0 +1,60 @@
+a {
+  text-decoration: none;
+  color: #f3f3f3;
+}
+
+.list-contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.list-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.borderDiv {
+  border: 0.183rem solid #f3f3f3;
+  border-radius: 50%;
+  padding: 30px;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  transition-property: background-color;
+}
+
+.borderDiv:hover {
+  background-color: #59d8ee;
+  cursor: pointer;
+}
+
+.iconLabel {
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #f3f3f3;
+}
+
+.iconLink {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  border-bottom: 0.005rem solid #f3f3f3;
+  padding-bottom: 0.125rem;
+  transition: 0.3s;
+  transition-property: color;
+  color: #f3f3f3;
+}
+
+.iconLink:hover {
+  color: #59d8ee;
+  cursor: pointer;
+}

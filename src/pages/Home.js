@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar';
 const Home = () => {
   return (
     <div>
-      <section>
+      <section className='homeSection'>
         <header>
           <Navbar />
         </header>

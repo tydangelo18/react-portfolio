@@ -1,0 +1,11 @@
+.contactHeading h1 {
+  font-size: 84px;
+  word-spacing: 1px;
+  text-transform: none;
+  line-height: 90px;
+  font-weight: 500;
+  letter-spacing: -3px;
+  color: #f3f3f3;
+  text-align: center;
+  margin: 0.8em 0 0;
+}
