@@ -1,82 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #2b2727;
-    color: white;
-    font-family: 'Exo 2', sans-serif;
-    line-height: 3.0;   
-    
+  background-color: #2b2727;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  line-height: 3;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    max-width: 700px;
-    margin: auto;
-    padding: 0 0px;
-    
+  max-width: 700px;
+  margin: auto;
+  padding: 0 0px;
 }
-  
+
 .showcase {
-    height: 135px;
-    
+  height: 135px;
 }
-  
+
 .showcase h1 {
-    font-size: 50px;
-    line-height: 1.3;
-    position: relative;
-    animation: heading;
-    animation-duration: 3s;
-    animation-fill-mode: forwards; 
-    text-align: center;
-  
+  font-size: 50px;
+  line-height: 1.3;
+  position: relative;
+  animation: heading;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  text-align: center;
 }
 
 .subTitle h2 {
-    font-size: 25px;
-    line-height: 1.3;
-    position: relative;
-    animation: subtitle;
-    animation-duration: 3s;
-    animation-fill-mode: forwards; 
-    text-align: center;
+  font-size: 25px;
+  line-height: 1.3;
+  position: relative;
+  animation: subtitle;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  text-align: center;
 }
-  
+
 @keyframes heading {
-    0% {
-      top: -50px; opacity: 0;
-    }
-    100% {
-      top: 50px; opacity: 1;
-    }
+  0% {
+    top: -50px;
+    opacity: 0;
+  }
+  100% {
+    top: 50px;
+    opacity: 1;
+  }
 }
-  
+
 @keyframes subtitle {
-    0% {
-      right: -500px; opacity: 0;
-    }
-    100% {
-      right: 0px; opacity: 1;
-    }
+  0% {
+    right: -500px;
+    opacity: 0;
+  }
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
 }
-  
+
 #content {
-      position: relative;
-      text-align: center;
-      animation-name: content;
-      animation-duration: 3s;
-      animation-fill-mode: forwards;
+  position: relative;
+  text-align: center;
+  animation-name: content;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
-  
+
 @keyframes content {
-      0% {
-        left: -1000px;
-      }
-      100% {
-        left: 0px;
-      }
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 0px;
+  }
 }
 
 @media (max-width: 768px) {

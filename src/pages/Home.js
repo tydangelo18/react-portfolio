@@ -1,8 +1,8 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 import '../styles/Home.css';
-import Header from '../components/Header';
 import Icons from '../components/Icons';
+import Navbar from '../components/Navbar';
 
 
 const Home = () => {
@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <section>
         <header>
-          <Header />
+          <Navbar />
         </header>
         <div className='content'>
           <div className='info'>
@@ -29,7 +29,7 @@ const Home = () => {
               // This will be a <Link /> to my Resume
             }
             <a href='#' className='info-btn'>
-              Download CV
+              View CV
             </a>
           </div>
         </div>
