@@ -4,7 +4,7 @@ import '../styles/Navbar.css';
 import logo from '../components/logo.png';
 // Icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
@@ -31,12 +31,21 @@ const Navbar = () => {
             <span>Contact</span>
           </Link>
         </div>
-        <FontAwesomeIcon
-          className='bars'
-          onClick={() => setShowLinks(!showLinks)}
-          icon={faBars}
-          size='2x'
-        />
+        {!showLinks ? (
+          <FontAwesomeIcon
+            className='bars'
+            onClick={() => setShowLinks(!showLinks)}
+            icon={faBars}
+            size='2x'
+          />
+        ) : (
+          <FontAwesomeIcon
+            className='times'
+            onClick={() => setShowLinks(!showLinks)}
+            icon={faTimes}
+            size='2x'
+          />
+        )}
       </div>
     </div>
   );
