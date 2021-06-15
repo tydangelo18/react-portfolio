@@ -15,6 +15,7 @@ const ProjectCards = () => {
         <div className='projectOne'>
           <div className='container' id='bolPic'>
             <img src={bol} alt='bol' className='image'></img>
+            <img src={bol} alt='bol' className='altimage'></img>
             
           </div>
           <div className='projectContent'>
@@ -61,6 +62,7 @@ const ProjectCards = () => {
         <div className='projectOne'>
           <div className='container' id='bolPic'>
             <img src={springboard} alt='springboard' className='image'></img>
+            <img src={springboard} alt='springboard' className='altimage'></img>
             
           </div>
           <div className='projectContent'>
@@ -113,6 +115,7 @@ const ProjectCards = () => {
         <div className='projectOne'>
           <div className='container' id='bolPic'>
             <img src={finch} alt='finch' className='image'></img>
+            <img src={finch} alt='altfinch' className='altimage'></img>
            
           </div>
           <div className='projectContent'>
