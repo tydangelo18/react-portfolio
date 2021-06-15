@@ -25,23 +25,28 @@
 
 .content .info h2 {
   color: #f3f3f3;
-  font-size: 55px;
-  text-transform: uppercase;
+  font-size: 84px;
+  text-transform: none;
   font-weight: 500;
-  letter-spacing: 1px;
-  line-height: 60px;
+  letter-spacing: -2px;
+  word-spacing: 1px;
+  line-height: 65px;
   margin-bottom: 30px;
 }
 .content .info h2 span {
   color: #f3f3f3;
-  font-size: 40px;
-  font-weight: 400;
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .content .info p {
   font-size: 16px;
-  font-weight: 300;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #f3f3f3;
   margin-bottom: 40px;
+  line-height: 3;
+  word-wrap: break-word;
 }
 
 .content .info-btn {
@@ -139,5 +144,9 @@
   .iconsdividerDiv {
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+
+  .content {
+    margin: 60px 55px;
   }
 }
