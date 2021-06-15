@@ -1,175 +1,85 @@
 .cardDiv {
-    margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 100px;
+width: 90%;
 }
 
-.topRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 20px;
-    position: relative;
-    
+.image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border: 0.124rem solid #f3f3f3;
+  border-radius: 2%;
 }
 
-.bottomRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
+
+
+.projectOne {
+  display: flex;
+  flex-direction: row;
 }
 
-#passwordCard, #plannerCard, #springboardCard, 
-#readmeCard, #burgerCard, #filterCard {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border: 2px solid white;
-    border-radius: 4px;
-  }
-
-  #passwordCard {
-    opacity: 0;
-    position: relative;
-    animation-name: password;
-    animation-duration: 4s;
-    animation-delay: .6s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes password {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-  
-  #plannerCard {
-    opacity: 0;
-    position: relative;
-    animation-name: planner;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes planner {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-
-
-  #springboardCard {
-    opacity: 0;
-    position: relative;
-    animation-name: springboard;
-    animation-duration: 4s;
-    animation-delay: 1.4s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes springboard {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-
-
-  #readmeCard {
-    opacity: 0;
-    position: relative;
-    animation-name: readme;
-    animation-duration: 4s;
-    animation-delay: 1.8s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes readme {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-
-
-  #burgerCard {
-    opacity: 0;
-    position: relative;
-    animation-name: burger;
-    animation-duration: 4s;
-    animation-delay: 2.2s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes burger {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-
-
-  #filterCard {
-    opacity: 0;
-    position: relative;
-    animation-name: filter;
-    animation-duration: 4s;
-    animation-delay: 2.6s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes filter {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
-  }
-  
-  .image {
-    display: inline-block;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    margin-top: 0;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #2b2727;
-  }
-  
-  .container:hover .overlay {
-    opacity: 1;
-  }
-
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-
-@media (max-width: 768px) {
-    .topRow {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .bottomRow {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    #passwordCard, #plannerCard, #springboardCard, 
-    #readmeCard, #burgerCard, #filterCard {
-        width: calc(400px - 100px);
-    }
+.projectContent {
+  display: flex;
+  flex-direction: column;
 }
 
+.projectTitle {
+  font-size: 35px;
+  word-spacing: 1px;
+  text-transform: none;
+  line-height: 90px;
+  font-weight: 500;
+  letter-spacing: -3px;
+  color: #f3f3f3;
+  margin-left: 10px;
+}
+
+.projectDesc {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #f3f3f3;
+  margin-bottom: 40px;
+
+  word-wrap: break-word;
+  margin-left: 15px;
+}
+
+.projectStack {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: #f3f3f3;
+  margin-bottom: 40px;
+  margin-left: 5px;
+}
+
+.projectdividerDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.projectDivider {
+  width: 120px;
+  border: none;
+  height: 1px;
+  background-color: #f3f3f3;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.linkBtn,
+.githubBtn {
+  margin-left: 20px;
+  margin-right: 20px;
+}

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/Projects.css';
 import ProjectCards from '../components/ProjectCards';
 import Navbar from '../components/Navbar';

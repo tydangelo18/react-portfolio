@@ -27,7 +27,11 @@ const Home = () => {
             {
               // This will be a <Link /> to my Resume
             }
-            <a href='#' className='info-btn'>
+            <a
+              href='https://docs.google.com/document/d/1AkzlB9kHWuJ3AqMC1kHFsWLysljnbeYmSTvM2lIGb5M/edit?usp=sharing'
+              className='info-btn'
+              target='null'
+            >
               View CV
             </a>
           </div>
