@@ -6,3 +6,16 @@
   line-height: 32px;
   color: #dcdcdc;
 }
+
+@media only screen and (max-width: 850px) {
+  .contactSubHeading h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contactSubHeading h2 {
+    font-size: 18px;
+  }
+}
+

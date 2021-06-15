@@ -68,6 +68,24 @@
   margin: auto;
 }
 
+.iconsdividerDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-bottom: 85px;
+}
+
+.iconsDivider {
+  width: 120px;
+  border: none;
+  height: 1px;
+  background-color: #f3f3f3;
+}
+/*TODO
+-> Change Font Size of Title and SubTitle for Mobile
+-> Change Paragraph margins and word/text wrap on mobile
+*/
+
 @media only screen and (max-width: 850px) {
   .content .info h2 {
     font-size: 45px;
@@ -116,5 +134,10 @@
   .content .info h2 span {
     font-size: 18px;
     font-weight: 600;
+  }
+
+  .iconsdividerDiv {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }

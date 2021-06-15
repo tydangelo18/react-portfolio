@@ -9,3 +9,15 @@
   text-align: center;
   margin: 0.8em 0 0;
 }
+
+@media only screen and (max-width: 850px) {
+  .contactHeading h1 {
+    font-size: 80px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contactHeading h1 {
+    font-size: 70px;
+  }
+}

@@ -12,7 +12,7 @@ const ContactIcons = () => {
             <FontAwesomeIcon
               className='contactIcon'
               icon={['fas', 'user']}
-              size='3x'
+              // size='3x'
             />
           </div>
 
@@ -26,7 +26,7 @@ const ContactIcons = () => {
             <FontAwesomeIcon
               className='contactIcon'
               icon={['fas', 'map-marker-alt']}
-              size='3x'
+              // size='3x'
             />
           </div>
 
@@ -40,7 +40,7 @@ const ContactIcons = () => {
             <FontAwesomeIcon
               className='contactIcon'
               icon={['fas', 'envelope-open-text']}
-              size='3x'
+              // size='3x'
             />
           </div>
 
@@ -55,7 +55,7 @@ const ContactIcons = () => {
             <FontAwesomeIcon
               className='contactIcon'
               icon={['fab', 'github']}
-              size='3x'
+              // size='3x'
             />
           </div>
 
@@ -69,7 +69,7 @@ const ContactIcons = () => {
             <FontAwesomeIcon
               className='contactIcon'
               icon={['fab', 'linkedin-in']}
-              size='3x'
+              // size='3x'
             />
           </div>
 

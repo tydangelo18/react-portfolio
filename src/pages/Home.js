@@ -4,7 +4,6 @@ import '../styles/Home.css';
 import Icons from '../components/Icons';
 import Navbar from '../components/Navbar';
 
-
 const Home = () => {
   return (
     <div>
@@ -32,6 +31,9 @@ const Home = () => {
               View CV
             </a>
           </div>
+        </div>
+        <div className='iconsdividerDiv'>
+          <hr className='iconsDivider' />
         </div>
         <div className='media-icons'>
           <Icons />
