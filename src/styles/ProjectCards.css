@@ -20,7 +20,7 @@
 .projectOne {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 70%;
 }
 
 .projectContent {
@@ -32,11 +32,11 @@
   font-size: 35px;
   word-spacing: 1px;
   text-transform: none;
-  line-height: 90px;
+  line-height: 40px;
   font-weight: 500;
   letter-spacing: -3px;
   color: #f3f3f3;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .projectDesc {
@@ -44,10 +44,10 @@
   letter-spacing: 2px;
   font-weight: 400;
   color: #f3f3f3;
-  margin-bottom: 40px;
-
+  margin-bottom: 13px;
   word-wrap: break-word;
   margin-left: 15px;
+  margin-top: 5px;
 }
 
 .projectStack {
@@ -57,7 +57,7 @@
   letter-spacing: 2px;
   font-weight: 300;
   color: #f3f3f3;
-  margin-bottom: 40px;
+  margin-bottom: 22px;
   margin-left: 35px;
 }
 
@@ -84,4 +84,49 @@
 .githubBtn {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+@media only screen and (max-width: 1470px) {
+  .projectOne {
+    width: 88%;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  .image {
+    width: 350px;
+    height: 250px;
+  }
+
+  .projectTitle {
+    font-size: 30px;
+  }
+
+  .projectDesc {
+    font-size: 16px;
+  }
+
+  .projectStack {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .projectOne {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
+
+  .projectTitle {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .image {
+    width: 330px;
+  }
 }

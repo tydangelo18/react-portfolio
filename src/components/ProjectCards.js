@@ -16,7 +16,6 @@ const ProjectCards = () => {
           <div className='container' id='bolPic'>
             <img src={bol} alt='bol' className='image'></img>
             <img src={bol} alt='bol' className='altimage'></img>
-            
           </div>
           <div className='projectContent'>
             <div className='projectTitle'>
@@ -63,7 +62,6 @@ const ProjectCards = () => {
           <div className='container' id='bolPic'>
             <img src={springboard} alt='springboard' className='image'></img>
             <img src={springboard} alt='springboard' className='altimage'></img>
-            
           </div>
           <div className='projectContent'>
             <div className='projectTitle'>
@@ -116,7 +114,6 @@ const ProjectCards = () => {
           <div className='container' id='bolPic'>
             <img src={finch} alt='finch' className='image'></img>
             <img src={finch} alt='altfinch' className='altimage'></img>
-           
           </div>
           <div className='projectContent'>
             <div className='projectTitle'>
@@ -136,7 +133,7 @@ const ProjectCards = () => {
             </div>
             <div className='projectLinks'>
               <a
-                href='https://tydangelo18.github.io/springboard-app/'
+                href='https://hidden-savannah-51942.herokuapp.com'
                 target='null'
               >
                 <FontAwesomeIcon
@@ -145,10 +142,7 @@ const ProjectCards = () => {
                   size='2x'
                 />
               </a>
-              <a
-                href='https://github.com/tydangelo18/springboard-app'
-                target='null'
-              >
+              <a href='https://github.com/tydangelo18/finch' target='null'>
                 <FontAwesomeIcon
                   className='githubBtn'
                   icon={['fab', 'github']}
